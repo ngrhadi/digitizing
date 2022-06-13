@@ -1,0 +1,6 @@
+[submodule "rlayers"]
+	path = rlayers
+	url = https://github.com/ngrhadi/rlayers.git
+[submodule "service-tdb"]
+	path = service-tdb
+	url = https://github.com/ngrhadi/service-tdb.git

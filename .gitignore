@@ -2,6 +2,8 @@
 /rlayers/yarn.lock
 
 /node_modules
+yarn.lock
+yarn-error.log
 
 /service-tdb/node_modules
 /service-tdb/yarn.lock

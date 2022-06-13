@@ -1,0 +1,16 @@
+{
+	"name": "digitizing",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"preInstall1": "cd rlayers/ && yarn",
+		"preInstall2": "cd service-tdb/ && yarn",
+		"front": "cd rlayers/ && yarn start",
+		"end": "cd service-tdb/ && yarn start",
+		"dev": "concurrently \"yarn front\" \"yarn end\""
+	},
+	"dependencies": {
+		"concurrently": "^7.2.1"
+	}
+}

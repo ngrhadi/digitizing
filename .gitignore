@@ -7,3 +7,4 @@ yarn-error.log
 
 /service-tdb/node_modules
 /service-tdb/yarn.lock
+.vercel

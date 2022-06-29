@@ -1,15 +1,15 @@
-# Service For Digitizing Tools (./service-tdb)
+# Service For Digitizing Tools _(./service-tdb)_
 
 This backend service Rest Full API can operate Read and Update data
 
 ## What going on in here ?
 
-1. For dependency using pg and knex js
-2. Build on top of express js as engine system for management routing in JavaScript
+1. For dependency using <a href="https://node-postgres.com/" target="blank">pg</a> and <a href="http://knexjs.org/">knex js</a>
+2. Build on top of <a href="https://expressjs.com/">express js</a> as engine system for management routing in JavaScript
 3. Total query on each file have 3 except buffer data it's just 2
 4. 100% using JavaScript
 5. Confiduring function has been return promise using async await
-6. Has been testing using postman
+6. Has been testing using `postman`
 
 ## Where if wanna change query or primary define database ?
 
@@ -17,16 +17,16 @@ Go to folder data, for change database configuration, on folder queries to chang
 
 ---
 
-# Frontend for Digitizing Tools (./rlayers)
+# Frontend for Digitizing Tools _(./rlayers)_
 
 This is part create using `create react-app`, using context management for state and `react-query` as state-management for fetching, mutation and query data. Also using `react-router-dom `for routing mangement and configuring until `data-id`
 
 ## What's going on in here ?
 
-1. Main library using `openlayers` and `rlayers` as context component
+1. Main library using <a href="https://openlayers.org/">openlayers</a> and `rlayers` as context component
 2. All layer has been configuring using ref data from parent until child component
 3. For each layer has own name as exactly same on backend
-4. Ui library using `react-bootstrap`, and for form library using `react-hook-form`
+4. Ui library using `react-bootstrap`, and for form library using <a href="https://react-hook-form.com/">react-hook-form</a>
 
 ## What's own feature on this app ?
 

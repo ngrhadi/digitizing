@@ -43,6 +43,9 @@ This is part create using `create react-app`, using context management for state
 9. Handle edit atribute layer id from Table
 10. Change geometry when draging on layers id
 11. All have been route using react-router-dom
+12. Upload data error from csv
+13. Handle integrated data error with existing data
+14. Display data error on map and table as requirement type data error
 
 ## When if we want change style layers ?
 
